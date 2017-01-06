@@ -1,0 +1,6 @@
+<h2 {{action 'toggleListDetail'}}> {{list.title}} </h2>
+<ul>
+  {{#each list.items as |item|}}
+    {{listr-list/item item=item}}
+  {{/each}}
+</ul>
